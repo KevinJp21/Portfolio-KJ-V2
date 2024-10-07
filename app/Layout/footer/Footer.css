@@ -1,0 +1,53 @@
+footer{
+    height: 10vh;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.ContentFooter{
+    position: relative;
+    width: 80%;
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+}
+
+.ContentFooter::before{
+    position: absolute;
+    top: 0;
+    height: 1px;
+    width: 100%;
+    content: '';
+    background: var(--Grey-Dark);
+}
+
+.ContentFooter span{
+    font-size: min(14px, 3.3vw);
+    font-weight: 800;
+    color: var(--Grey-Dark);
+}
+
+.FooterList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.FooterList li{
+    padding: 5px;
+}
+
+.LinkFooter svg{
+    width: 30px;
+    height: 30px;
+    fill: var(--Grey-Dark);
+    transition: .3s ease;
+}
+
+.LinkFooter svg:hover{
+    transform: scale(1.5);
+}

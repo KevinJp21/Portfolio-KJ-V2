@@ -1,0 +1,157 @@
+.FloatNavbar {
+    position: fixed;
+    width: 70vw;
+    height: 60px;
+    background-color: var(--NavBar-bg);
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 20px;
+    box-shadow: var(--NavBar-Shadow) 0px 10px 40px 1px;
+    z-index: 100;
+}
+
+.FloatNavbar::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    backdrop-filter: blur(4px); 
+    z-index: -1; 
+    border-radius: 20px; 
+    background: var(--NavBar-bg);
+}
+
+
+.FloatNavBarHome {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.containerFloatNavHome {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 12px;
+}
+
+.FloatnavHome{
+    width: 100%;
+}
+
+.LinkFloatNavHome {
+    text-decoration: none;
+    color: var(--Grey);
+    transition: .3s ease-out;
+}
+
+.LinkFloatNavHome svg{
+    fill: var(--Grey);
+    transition: all .3s ease;
+    max-width: 20px;
+    width: 100%;
+    
+}
+
+.LinkFloatNavHome svg:hover{
+    fill: var(--Blue);
+    transform: scale(1.5);
+    
+}
+
+.LinkFloatNavHome:hover {
+    color: var(--Grey-HoverLinks);
+}
+
+.FloatmenuHome {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.FloatmenuHome li {
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+
+.FloatNavbar .select svg{
+    stroke: var( --Grey);
+    max-width: 25px;
+    width: 100%;
+    transition: all .3s;
+    
+}
+
+.FloatNavbar .dropdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.FloatNavbar .menu{
+    padding: 10px;
+    min-width: 150px ;
+    background: var(--NavBar-bg);
+    box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2);
+    border-radius: 0.5em;
+    color: #9fa5b5;
+    position: absolute;
+    top: 2.8rem;
+    right: 0;
+    width: 100%;
+    opacity: 0;
+    display: none;
+    backdrop-filter: blur(10px);
+}
+
+.FloatNavbar .menu li{
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.FloatNavbar .menu li span{
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--Grey);
+}
+
+.FloatNavbar .menu li:hover{
+    background: rgba(0, 0, 0, .2);
+    
+}
+.FloatNavbar .menu-open{
+    display: block;
+    opacity: 1;
+
+}
+
+.FloatNavbar .select svg:hover{
+    filter: drop-shadow(0px 0px 10px var(--Blue));
+    transform: scale(1.1);
+}
+
+
+.FloatNavbar .select-clicked svg{
+    filter: drop-shadow(0px 0px 10px var(--Blue));
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 500px) {
+    .FloatNavbar{
+        width: 90vw;
+    }
+}

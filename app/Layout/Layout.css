@@ -1,0 +1,4 @@
+.bg-absolute{
+    background: var(--BG-html);
+    background-color: var(--BG-Color-html);
+}
