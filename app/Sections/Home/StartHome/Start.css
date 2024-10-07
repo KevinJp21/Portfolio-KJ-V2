@@ -60,7 +60,7 @@
 
 .StartTextContent p {
     color: var(--Grey-Dark);
-    font-size: min(20px, 4vw);
+    font-size: min(20px, 6vw);
     text-align: center;
     text-wrap:pretty;
     padding: 5px;
