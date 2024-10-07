@@ -1,0 +1,162 @@
+export default {
+    "Header": {
+      "start": "Inicio",
+      "projects": "Proyectos",
+      "about_me": "Sobre mi",
+      "skills": "Habilidades",
+      "contact": "Contacto",
+      "BtnThemMode": "Tema",
+      "BtnTLanguage": "Lenguaje"
+    },
+    "Home": {
+      "name": "Hey, Soy Kevin Julio",
+      "descStrong": "Ingeniero de Sistemas enfocado en el Desarrollo Frontend",
+      "description": ". De Colombia co. Especializado en el desarrollo de aplicaciones web.",
+      "btnCV": "Descargar CV",
+      "btnContact": "Contactame"
+    },
+    "Projects": {
+      "title": "Proyectos",
+      "p1": "DocMe",
+      "p2": "API Residencias",
+      "p3": "API Ordenes",
+      "p4": "Asistente Chatbot",
+      "p5": "RestauranteSCocina"
+    },
+    "About": {
+      "title": "Acerca de mí",
+      "p1": [
+        "Mi nombre es <strong>Kevin Julio Pineda</strong> y soy un <strong>ingeniero de sistemas especializado en desarrollo frontend</strong>. Durante mi formación universitaria, participé activamente en diversas <strong>ferias tecnológicas</strong>, lo que me permitió <strong>ampliar mis conocimientos y habilidades</strong> en el campo de la ingeniería de sistemas."
+      ],
+      "p2": [
+        "A lo largo de mi carrera, he <strong>liderado múltiples proyectos</strong> desde la fase inicial hasta su despliegue, utilizando <strong>metodologías ágiles</strong> y <strong>patrones de diseño</strong> para garantizar que cada proyecto se complete de manera eficiente y cumpla con los más altos estándares de calidad."
+      ],
+      "p3": [
+        "Mi objetivo es continuar creciendo profesionalmente y contribuir a la <strong>creación de soluciones tecnológicas innovadoras</strong> que <strong>mejoren la experiencia del usuario</strong>. Me apasiona aplicar las mejores prácticas en el desarrollo de software, asegurando la creación de <strong>aplicaciones intuitivas y funcionales</strong>."
+      ]
+    },
+    "Skills": {
+      "title": "Skills",
+      "SubTitle1": "Lenguajes y Herramientas",
+      "SubTitle2": "Inteligencia Artificial",
+      "SubTitle3": "Otros"
+    },
+    "Footer": {
+      "author": "Hecho por KevinJp21"
+    },
+    "P_DocMe": {
+      "title": "DocMe: Plataforma Integrada para la Gestión de Citas Médicas",
+      "intro": "Colombia ha logrado avances significativos en la cobertura del sistema de salud, en el 2020 el 97,8% de la población estaba cubierto por el sistema de salud. Pero esto no se ha traducido en un acceso efectivo y oportuno a los servicios de salud. Por ejemplo, en 2019 el 26 % de las personas no recibió o solicitó atención médica debido a problemas como la oportunidad de la cita, la calidad del servicio, la ubicación geográfica del centro de atención o la cantidad de trámites.",
+      "subtitle1": "Problema",
+      "p1": "La problemática del agendamiento de citas médicas plantea desafíos significativos para pacientes y profesionales de la salud en todo el país. La falta de agendamientos adecuados se ha convertido en un obstáculo recurrente que afecta la eficiencia y la calidad del servicio médico.",
+      "p2": "Esta problemática se manifiesta a través de diversos factores interrelacionados, que van desde la falta de personalización en la atención médica hasta la inadecuación de fechas y la lejanía de los centros de atención.",
+      "p3": " Sin embargo, todos estos problemas convergen en un único punto crítico: la ausencia de un sistema efectivo de agendamiento de citas. La falta de agendamiento de citas adecuadas resulta en consecuencias negativas para los pacientes y los proveedores de atención médica. Los pacientes se ven enfrentados a la dificultad de acceder a una atención oportuna y adecuada debido a la saturación de las líneas de atención, la escasez de personal y los horarios limitados de atención.",
+      "p4": "“Agendar citas de manera practica y oportuna es una de las mayores dificultades para pacientes en todo el país, debido a la saturación de líneas de atención, falta de personal y horario de atención limitante […]” (Anónimo, 2023).",
+      "subtitle2": "Solución",
+      "p5": " El proyecto consiste en un sistema de gestión de citas médicas que se basará en una aplicación web para integrar capacidades de personalización, optimización de calendarios, manejo de urgencias y un chatbot de inteligencia artificial. Con este sistema se busca mejorar la experiencia de los pacientes al proporcionarles una herramienta como es el chatbot que proporcionará respuestas automatizadas a los usuarios sobre diferentes temas relacionados con servicios médicos. Esto incluye:",
+      "li1": "Saludo y bienvenida: Responder a los saludos del usuario y proporcionar una interacción amigable.",
+      "li2": "Información sobre citas médicas:  Proporcionar detalles sobre las próximas y últimas citas del usuario.",
+      "li3": "Respuestas generales: Responder preguntas frecuentes y proporcionar información básica sobre salud.",
+      "li4": "Orientación en caso de síntomas: Brindar recomendaciones sobre qué hacer si presentan ciertos síntomas, incluyendo si deben buscar atención inmediata.",
+      "li5": "Saber más sobre el ChatBot",
+      "subtitle3": "Responsabilidades",
+      "p6": "Diseñé e implementé un sistema de agendamiento de citas médicas, mejorando la accesibilidad y eficiencia en la programación de citas.",
+      "p7": "Empleado para desarrollar una interfaz de usuario dinámica y moderna. ReactJS facilitó la gestión eficiente del estado de la aplicación y la creación de componentes reutilizables, permitiendo la integración fluida de funcionalidades como el chatbot y la visualización de información.",
+      "p8": "Utilizado como framework de Node.js para construir el backend de la aplicación web. ExpressJS simplificó la creación de rutas, la gestión de solicitudes HTTP y la integración con bases de datos, siendo fundamental para la implementación de la lógica de negocio del sistema de gestión de citas médicas.",
+      "p9": "Sistema de gestión de bases de datos relacional utilizado para almacenar y gestionar eficientemente la información de los usuarios, citas médicas, y configuraciones del sistema. MySQL proporciona robustez, escalabilidad y seguridad para asegurar la integridad de los datos y el rendimiento del sistema.",
+      "p10": "Desarrollé un chatbot inteligente utilizando Flask como framework backend y técnicas avanzadas de Procesamiento de Lenguaje Natural (NLP) con NLTK. Diseñado para interactuar en español, el chatbot ofrece respuestas automáticas precisas basadas en la detección de intenciones en las consultas de los usuarios, mejorando significativamente la experiencia de interacción.",
+      "subtitle4": "Conclusiones",
+      "p11": "Mi experiencia en el desarrollo de DocMe ha sido fundamental para demostrar mi capacidad para enfrentar desafíos complejos en el ámbito de la salud digital. A través de la implementación de tecnologías como ReactJS, ExpressJS y Flask, he logrado no solo mejorar la accesibilidad y eficiencia en la gestión de citas médicas, sino también innovar en la integración de un chatbot basado en inteligencia artificial para proporcionar respuestas automatizadas precisas en español. Este proyecto no solo subraya mi habilidad para desarrollar soluciones tecnológicas robustas y orientadas al usuario, sino también mi compromiso con la mejora continua y la excelencia en el sector de la salud. Estoy preparado para enfrentar nuevos desafíos y seguir contribuyendo al avance de la tecnología aplicada a la atención médica."
+    },
+    "P_Chatbot": {
+      "title": "Asistente DocMe Chatbot",
+      "intro": "En un esfuerzo por abordar los desafíos persistentes en el sistema de salud colombiano, he desarrollado un chatbot inteligente como parte del proyecto DocMe. Este chatbot tiene como objetivo mejorar la accesibilidad y eficiencia en el sistema de salud mediante el uso de inteligencia artificial.",
+      "subtitle1": "Contexto",
+      "p1": "El sistema de salud colombiano enfrenta desafíos significativos en la gestión de citas médicas, incluyendo la saturación de líneas de atención y la dificultad para acceder a servicios médicos oportunos. DocMe busca abordar estas dificultades mediante soluciones tecnológicas innovadoras, como es el chatbot inteligente, que facilita la interacción y proporciona respuestas rápidas y precisas.",
+      "subtitle2": "Funcionalidades Clave del Chatbot",
+      "p2": "El chatbot en DocMe está diseñado para manejar diversas situaciones y consultas médicas:",
+      "subtitle3": "Saludo y Bienvenida",
+      "li1": "<strong>Patrones de Entrada:</strong> Incluyen saludos comunes como \"hola\", \"¿qué tal?\", entre otros.",
+      "li2": "<strong>Respuestas:</strong> El chatbot responde de manera amigable y personalizada, iniciando la interacción con el usuario de manera acogedora.",
+      "subtitle4": "Información del Asistente",
+      "li3": "<strong>Patrones de Entrada:</strong> Preguntas sobre el nombre del chatbot y su función.",
+      "li4": "<strong>Respuestas:</strong> Describe su función como asistente virtual en la gestión de citas médicas y la facilitación de la experiencia del usuario en el cuidado de la salud.",
+      "subtitle5": "Apoyo Emocional",
+      "li5": "<strong>Patrones de Entrada:</strong> Expresiones de malestar emocional como \"me siento mal\" o \"estoy lidiando con mucha ansiedad\".",
+      "li6": "<strong>Respuestas:</strong> Ofrece apoyo emocional y, si es necesario, guía al usuario para buscar ayuda profesional, como consejeros o terapeutas.",
+      "subtitle6": "Síntomas Físicos",
+      "li7": "<strong>Patrones de Entrada:</strong> Indicaciones de malestar físico como \"tengo fiebre\" o \"me siento enfermo\".",
+      "li8": "<strong>Respuestas:</strong> Proporciona recomendaciones básicas de salud y, si es necesario, le recomienda al usuario agendar una cita.",
+      "subtitle7": "Tecnologías Utilizadas",
+      "p3": "El desarrollo del chatbot se fundamenta en las siguientes tecnologías:",
+      "li9": "<strong>Python:</strong> Utilizado como el lenguaje principal para el desarrollo del backend y la integración de diferentes componentes del proyecto.",
+      "li10": "<strong>Flask:</strong> Framework utilizado para la construcción del backend de la aplicación web, proporcionando rutas y manejo de solicitudes HTTP.",
+      "li11": "<strong>Flask-SQLAlchemy para la gestión de bases de datos:</strong> Utilizado para interactuar con la base de datos MySQL, gestionando eficientemente los datos de usuarios y citas médicas.",
+      "li12": "<strong>Numpy para operaciones matemáticas:</strong> Empleado para realizar cálculos numéricos y operaciones matemáticas esenciales en el procesamiento de datos.",
+      "li13": "<strong>NLTK para el procesamiento de lenguaje natural:</strong> Integrado para el análisis y procesamiento de texto en consultas de usuarios, permitiendo funciones como tokenización y lematización.",
+      "li14": "<strong>Keras para el modelado de redes neuronales:</strong> Utilizado para desarrollar y entrenar modelos de redes neuronales, mejorando la precisión en la clasificación de intenciones en las consultas de los usuarios.",
+      "li15": "<strong>TensorFlow como backend para keras:</strong> Utilizado como backend para ejecutar modelos de aprendizaje profundo desarrollados con Keras, garantizando un rendimiento optimizado.",
+      "li16": "<strong>waitress como servidor WSGI:</strong> Utilizado como servidor web para servir la aplicación Flask en producción, proporcionando una implementación ligera y eficiente.",
+      "li17": "<strong>PyMySQL para la conexión con MySQL:</strong> Utilizado para establecer y gestionar la conexión entre la aplicación Flask y la base de datos MySQL, asegurando la integridad y la eficiencia de los datos almacenados.",
+      "li18": "<strong>SciKit-Learn para técnicas de machine learning:</strong> Empleado para implementar algoritmos de aprendizaje automático que optimizan la clasificación de datos y la detección de patrones en las consultas de los usuarios.",
+      "li19": "<strong>PySpellChecker para corrección ortográfica:</strong> Integrado para mejorar la precisión en el procesamiento de texto, corrigiendo errores ortográficos en las consultas de los usuarios antes de su análisis.",
+      "subtitle8": "Resultados y Beneficios",
+      "p4": "La integración del chatbot en DocMe ha demostrado mejorar significativamente la accesibilidad y eficiencia en la gestión de consultas médicas. Los usuarios pueden recibir respuestas rápidas y precisas, reduciendo la carga administrativa y mejorando la satisfacción general del paciente.",
+      "subtitle9": "Conclusiones",
+      "p5": "El chatbot en DocMe representa un avance en la digitalización de los servicios de salud, ofreciendo una solución innovadora para mejorar la interacción paciente-servicio médico. Este proyecto subraya mi habilidad para aplicar tecnologías avanzadas en la resolución de problemas complejos, preparándome para enfrentar nuevos desafíos y contribuir al campo de la salud digital con soluciones eficaces y orientadas al usuario."
+    },
+    "P_RestS": {
+        "title": "RestauranteSCocina",
+        "intro": "RestauranteSCocina emerge como un oasis culinario en el corazón de Colombia, fusionando tradición y vanguardia para ofrecer una experiencia gastronómica única. Este proyecto se desarrolló con el objetivo de destacar la rica diversidad de la cocina colombiana a través de platos auténticos y sabores que celebran la cultura local.",
+        "subtitle1": "Características Destacadas",
+        "li1": "<strong>Diversidad de Sabores Colombianos:</strong> Desde las montañas de los Andes hasta las costas del Caribe, \"RestauranteSCocina\" invita a explorar la diversidad culinaria de Colombia a través de platos auténticos que capturan las influencias regionales y culturales del país.",
+        "li2": "<strong>Historia y Tradición:</strong> Cada región de Colombia tiene una identidad culinaria única, influenciada por su geografía, clima y tradiciones. Desde los platos andinos con raíces indígenas hasta la cocina costeña con sabores marítimos, la cocina colombiana refleja una fusión de culturas que se traduce en una amplia variedad de ingredientes y técnicas culinarias.",
+        "li3": "<strong>Menú Virtual:</strong> \"RestauranteSCocina\" presenta un menú detallado que incluye platos populares como la Sopa de Mondongo, el Corrientazo de Pollo, y el Mote de Queso, entre otros. Cada plato está acompañado de descripciones que resaltan sus sabores y características únicas.",
+        "li4": "<strong>Contacto y Ubicación:</strong> Los usuarios pueden contactar al restaurante a través de formularios integrados en el sitio web, facilitando reservas y consultas sobre los servicios ofrecidos.",
+        "subtitle2": "Tecnologías Utilizadas",
+        "li5": "<strong>HTML5 y CSS3:</strong> Para el diseño visual y la estructura del sitio web.",
+        "li6": "<strong>JavaScript:</strong> Para la funcionalidad interactiva y dinámica del sitio.",
+        "li7": "<strong>React:</strong> Utilizado para desarrollar una interfaz de usuario moderna y optimizada.",
+        "li8": "<strong>API Food PHP:</strong> Para gestionar el menú y los detalles de los platos, desarrollé una API utilizando PHP. Esta API permite almacenar y consultar información detallada sobre las comidas ofrecidas en \"RestauranteSCocina\", asegurando una gestión eficiente y dinámica de los datos gastronómicos.",
+        "li9": "Saber más sobre esta API",
+        "subtitle3": "Resultados y Objetivos",
+        "p1": "\"RestauranteSCocina\" demuestra mi habilidad para crear experiencias digitales atractivas que capturan la esencia y la autenticidad de una experiencia gastronómica colombiana. Este proyecto destaca mi capacidad para integrar diseño, usabilidad y funcionalidad en plataformas web, preparándome para abordar proyectos desafiantes en el campo del desarrollo web con creatividad y eficacia."
+    },
+    "P_APIResi": {
+      "title": "API Residencias: Gestión eficiente de los datos residenciales",
+      "intro": "API Residencias es una API diseñada para agilizar la gestión de datos residenciales, abarcando diversos aspectos como apartamentos, pagos, propietarios, tarifas y torres. Este proyecto tiene como objetivo proporcionar endpoints para realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en datos residenciales, facilitando así una gestión eficiente y una integración perfecta con otros sistemas.",
+      "subtitle1": "Datos gestionados Api Residencias",
+      "p1": "Actualmente solo tiene implementado la gestion de <strong>propietarios</strong>, ya que para los demas se utilizaria el mismo codigo.",
+      "li1": "<strong>Apartamentos</strong>",
+      "li2": "<strong>Pagos</strong>",
+      "li3": "<strong>Tarifas</strong>",
+      "li4": "<strong>Torres</strong>",
+      "subtitle2": "Tecnologías Utilizadas",
+      "li5": "<strong>PHP:</strong> Para secuencias de comandos del lado del servidor y la creación de una funcionalidad de backend robusta.",
+      "li6": "<strong>MySQL</strong> Para una gestión eficiente de bases de datos y almacenamiento de datos.",
+      "li7": "<strong>Principios de API RESTful:</strong> Para garantizar un diseño de API escalable y mantenible.",
+      "subtitle3": "Mis habilidades y experiencia",
+      "p2": "El desarrollo de ResidenciasAPI me ha permitido demostrar mis habilidades en desarrollo de backend, gestión de bases de datos y diseño de APIs. Mi dominio de PHP y MySQL garantizó la creación de una API robusta y escalable capaz de manejar tareas complejas de gestión de datos residenciales. Además, mi adhesión a los principios de la API RESTful garantiza que la API sea mantenible y fácilmente integrable con otros sistemas.",
+      "p3": "Este proyecto pone de manifiesto mi capacidad para abordar tareas de desarrollo desafiantes y ofrecer soluciones eficientes y orientadas al usuario. Estoy bien preparado para asumir nuevos proyectos y contribuir al avance de la tecnología en diversos dominios."
+  },
+  "P_APIOrders": {
+    "title": "API de gestión de pedidos: optimización de operaciones de datos complejas",
+    "intro": "La API de gestión de pedidos es una herramienta sencilla pero eficaz diseñada para facilitar la recuperación de datos relacionados con los pedidos, los clientes, los empleados y los detalles de los pedidos. Esta API es ideal para fines educativos y ejercicios prácticos, ya que proporciona endpoints para consultar y recuperar datos de una base de datos estructurada. Aprovechando Node.js y Express para el manejo de solicitudes y MySQL para las interacciones de bases de datos, esta API ofrece un enfoque sencillo para acceder a datos comerciales esenciales.",
+    "subtitle1": "Datos gestionados por la API de gestión de pedidos",
+    "p1": "La API de administración de pedidos maneja varias entidades de datos, proporcionando puntos de conexión completos para administrarlas de manera eficiente:",
+    "li1": "<strong>Líneas de productos</strong>",
+    "li2": "<strong>Productos</strong>",
+    "li3": "<strong>Oficinas</strong>",
+    "li4": "<strong>Empleados</strong>",
+    "li5": "<strong>Clientes</strong>",
+    "li6": "<strong>Pagos</strong>",
+    "li7": "<strong>Pedidos</strong>",
+    "li8": "<strong>Detalles del pedido</strong>",
+    "subtitle2": "Tecnologías Utilizadas",
+    "li9": "<strong>Node.js:</strong> Proporciona el entorno de tiempo de ejecución para crear aplicaciones escalables y de alto rendimiento del lado del servidor.",
+    "li10": "<strong>Express</strong> Un framework de aplicaciones web de Node.js mínimo y flexible que facilita la gestión eficiente de las solicitudes.",
+    "li11": "<strong>MySQL:</strong>Un sistema de gestión de bases de datos relacionales (RDBMS) fiable y ampliamente utilizado para la gestión de los datos.",
+    "subtitle3": "Mis habilidades y experiencia",
+    "p2": "El desarrollo de la API de gestión de pedidos me permitió mejorar mis habilidades en el desarrollo de backend, particularmente en la creación y gestión de API RESTful. Trabajar con Node.js y Express fortaleció mi comprensión de las secuencias de comandos del lado del servidor, mientras que la integración de MySQL refinó mis capacidades de administración de bases de datos. Este proyecto muestra mi capacidad para diseñar API escalables y mantenibles, lo que garantiza un manejo eficiente de los datos y una integración perfecta con otros sistemas."
+  }
+}
