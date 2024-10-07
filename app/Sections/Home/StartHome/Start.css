@@ -121,8 +121,8 @@
 }
 
 .BTNLinkSocialr svg{
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     fill: var(--Grey-Dark);
     transition: all .3s ease;
 }
