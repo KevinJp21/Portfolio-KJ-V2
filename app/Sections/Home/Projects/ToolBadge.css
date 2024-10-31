@@ -1,0 +1,74 @@
+.ToolBadge{
+    place-content: center;
+    text-align: center;
+    border-radius: 10px;
+    height: 26px;
+}   
+
+.ToolBadge span {
+    font-size: 12px;
+    font-weight: 600;
+    display: flex;
+    padding: 4px 8px;
+    align-items: center;
+    gap: 2px;
+    height: 100%;
+}
+
+.ToolBadge span svg{
+    width: 16px;
+    height: 16px;
+}
+
+
+.ToolBadge.ReactJS{
+    background-color:#333 ;
+    color: #61dafb;
+}
+
+.ToolBadge.ExpressJS {
+    background-color: #010409; 
+    color: #e6edf3;
+}
+
+
+.ToolBadge.PHP {
+    background-color: #777BB3;
+    color: #fff;
+}
+
+.ToolBadge.MySQL{
+    background-color:#00758F ;
+    color: #e6edf3;
+}
+
+.ToolBadge.JavaScript{
+    background-color: #F7DF1E;
+    color: #000000;
+}
+
+.ToolBadge.Python{
+    background-color: #1E415E;
+    color: #ffff;
+}
+
+.ToolBadge.Flask{
+    background-color: #ffff;
+    color: #2A2123;
+}
+
+.ToolBadge.TensorFlow{
+    background-color: #FAFAFB;
+    color: #425066;
+}
+
+.ToolBadge.SQLAlchemy{
+    background-color: #fff;
+    color: #D71F00;
+}
+
+.ToolBadge.Api_CB{
+    background-color: #777BB3;
+    color: #010409;
+}
+
