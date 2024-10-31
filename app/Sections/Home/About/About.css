@@ -1,0 +1,50 @@
+.ContainerAbout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-top: 4vh;
+    min-height: fit-content;
+
+}
+
+.HeaderAbout{
+    width: 100%;
+    padding: 20px;
+}
+
+.HeaderAbout h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--Grey-Dark);
+}
+
+.ContentAbout{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.DescriptionAbout{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.DescriptionAbout p{
+    color: var(--Grey-Dark);
+    font-size: min(20px, 6vw);
+    font-weight: 300;
+    text-wrap: pretty;
+    margin-top: 10px;
+}
+
+.DescriptionAbout p strong{
+    color: var(--Blue);
+    font-weight: bold;
+}

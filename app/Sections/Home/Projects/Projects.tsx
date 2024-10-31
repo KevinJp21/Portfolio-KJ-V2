@@ -35,7 +35,7 @@ export default function Projects() {
             <div className="ContentProjects">
                 {projects.map((project) => (
                     <div key={project.id} className={`CardProject Card${project.id}`}>
-                        {project.img && <img decoding="async" fetchPriority='low' src={project.img} alt={project.title} loading='lazy'/>}
+                        {project.img && <img decoding="async" src={project.img} alt={project.title} loading='lazy'/>}
                         <div className="contentCard">
                             <div className="HeaderCard">
                                 <a title='DemoProject' className="IconsCards" target="-blank" href={project.demo}><LinkIcon /></a>

@@ -1,0 +1,148 @@
+:root{
+    --BG-ExpressJS: rgba(0, 99, 247, 0.1);
+}
+
+.cardsSkills {
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.cardsSkills img {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+.ContentCardsSkills {
+    position: absolute;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: bold;
+    font-size: 16px;
+    width: 100%;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.8);
+    bottom: 0;
+    opacity: 0;
+}
+
+.cardsSkills:hover .ContentCardsSkills {
+    opacity: 1;
+}
+.dark-mode{
+    --BG-ExpressJS: rgba(190, 198, 214, 0.9);
+}
+.cardsSkills.Java{
+    background: rgba(0, 99, 247, 0.1);
+}
+
+.cardsSkills.JavaScript{
+    background: rgba(247, 223, 30, .9);
+
+}
+
+.cardsSkills.TypeScript{
+    background: rgba(38, 38, 38, 1);
+}
+
+.cardsSkills.PHP{
+    background: rgba(122, 134, 184, .9);
+}
+
+.cardsSkills.React{
+    background: rgba(35, 39, 47, .9);
+}
+
+.cardsSkills.Angular{
+    background: rgba(19, 94, 185, .2);
+}
+
+.cardsSkills.HTML{
+    background: rgba(241, 101, 36, .2);
+}
+
+.cardsSkills.CSS{
+    background: rgba(41, 101, 241, .2);
+}
+
+.cardsSkills.ExpressJS{
+    background: var(--BG-ExpressJS);
+}
+
+.cardsSkills.jQuery{
+    background: rgba(51, 51, 51,.7);
+}
+
+.cardsSkills.NodeJS{
+    background: rgba(13, 18, 28,.9);
+}
+
+.cardsSkills.MySQL{
+    background:rgba(190, 198, 214, 0.9);
+}
+
+.cardsSkills.Vite{
+    background: rgba(27, 27, 31, .8);
+}
+
+.cardsSkills.Python{
+    background: rgba(30, 65, 94, .9);
+}
+
+.cardsSkills.TensorFlow{
+    background: rgba(190, 198, 214, 0.2);
+}
+
+.cardsSkills.Keras{
+    background: rgb(208, 0, 0, .7);
+}
+
+.cardsSkills.NLTK{
+    background: rgba(190, 198, 214, 0.9);
+}
+
+.cardsSkills.SQLAlchemy{
+    background: rgba(232, 232, 232, .9);
+}
+
+.cardsSkills.Flask{
+    background: rgba(232, 232, 232,.6);
+}
+
+.cardsSkills.SciKitLearn{
+    background: rgba(52, 152, 201,.6);
+}
+
+.cardsSkills.Matplotlib{
+    background: rgba(30, 30, 30, .8);
+}
+
+.cardsSkills.Seaborn{
+    background: rgba(232, 232, 232, .9);
+}
+
+.cardsSkills.Pandas{
+    background: rgba(34, 40, 50, .9);
+}
+
+.cardsSkills.NumPy{
+    background: rgba(232, 232, 232, .9);
+}
+
+.cardsSkills.npm{
+    background: rgba(232, 232, 232, .9);
+}
+
+.cardsSkills.pnpm{
+    background: rgba(232, 232, 232, .9);
+}
+
+.cardsSkills.Git{
+    background: rgba(240, 240, 232, .8);
+}
