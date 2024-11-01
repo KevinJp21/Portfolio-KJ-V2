@@ -23,7 +23,7 @@ export default function Start(){
         <section className="ContainerStart" id='Start'>
             <div className="StartContent">
                 <div className="ImgContent">
-                    <img src={imgProfile} alt="Foto de kevin julio pineda" width={"300px"} height={"300px"}/>
+                    <img src={imgProfile} alt="Foto de kevin julio pineda" width={"300px"} height={"300px"} loading="eager"/>
                 </div>
 
                 <div className="StartTextContent">

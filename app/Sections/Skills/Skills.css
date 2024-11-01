@@ -2,8 +2,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 100vh;
-    padding: 20px;
+    min-height: fit-content;
+    padding: 32px 20px;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .HeaderSkills {
@@ -21,12 +24,11 @@
 
 .toolCategory {
     position: relative;
-    width: 100%;
     text-align: start;
     color: var(--Blue);
     font-size: 25px;
     font-weight: normal;
-    width: 60vw;
+    width: 100%;
     padding-left: 15px;
     margin-top: 20px;
 }
@@ -48,28 +50,6 @@
     grid-auto-rows: 100px;
     place-content: center;
     gap: 10px;
-    width: 60vw;
+    width: 100%;
     padding: 20px 0;
-}
-
-@media screen and (max-width: 784px) {
-    .toolCategory {
-        width: 80vw;
-    }
-
-
-    .ContainerSkills .ContentSkills {
-        width: 80vw;
-    }
-}
-
-@media screen and (max-width: 784px) {
-    .toolCategory {
-        width: 90vw;
-    }
-
-
-    .ContainerSkills .ContentSkills {
-        width: 100vw;
-    }
 }
