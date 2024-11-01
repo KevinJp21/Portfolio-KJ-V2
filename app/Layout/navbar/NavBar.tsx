@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './Navbar.css';
+import './NavBar.css';
 import { useTranslation } from 'react-i18next';
 import { MonitorIcon, SunIcon, MoonIcon, WorldIcon } from '~/assets/Icons/icons';
 
