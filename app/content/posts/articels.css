@@ -145,3 +145,76 @@ article{
         margin-top: 100px;
     }
 }
+
+/*Projects*/
+
+/*DocMe*/
+.P_DocMe .ProjectSol li:last-child{
+    list-style: none;
+}
+
+/*RestauranteSCocina*/
+
+.P_RestauranteSCocina .ProjectSol li:last-child{
+    list-style: none;
+}
+
+/*ChatBot*/
+.P_Chatbot picture{
+    display: flex;
+    justify-content: center;
+   
+}
+.P_Chatbot .imgProject{
+    width: 300px ;
+
+}
+
+.P_Chatbot .ProjectTools{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.P_Chatbot .ProjectTools p{
+    margin: 0;
+}
+
+.P_Chatbot .ProjectTools .cardsSkills{
+    width: 150px;
+    height: 60px;
+   border-radius: 10px;
+}
+
+/*API residencias*/
+
+.P_APIResidences picture{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.P_APIResidences .imgProject{
+        width: 300px ;
+}
+
+.P_APIResidences .LinksProject a:last-child{
+    display: none !important;
+}
+
+/*API Ordenes*/
+
+.P_APIOrders picture{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.P_APIOrders .imgProject{
+        width: 300px ;
+}
+
+.P_APIOrders .LinksProject a:last-child{
+    display: none !important;
+}

@@ -52,7 +52,7 @@ export default function ProjectPage() {
     return (
         <Layout>
             {translationKey ? (
-                <article className="project-content">
+                <article className={`project-content ${t(`${translationKey}.className`)}`}>
                     <div
                         dangerouslySetInnerHTML={{
                             __html: t(`${translationKey}.header`),
