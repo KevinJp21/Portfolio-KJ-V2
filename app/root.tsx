@@ -4,6 +4,7 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
+  useLoaderData,
   useRouteLoaderData
 } from "@remix-run/react";
 import type { LinksFunction, MetaFunction } from "@remix-run/node";
@@ -13,6 +14,8 @@ import "./styles.css";
 import font from "~/assets/SF_Fonts/font.css?url";
 
 import i18nServer from "./modules/i18n.server";
+import { useEffect, useState } from "react";
+import { useChangeLanguage } from "remix-i18next/react";
 
 export const handle = { i18n: ["translation"] }
 
@@ -55,5 +58,18 @@ export function Layout({ children }: { children: React.ReactNode }) {
 }
 
 export default function App() {
+  let { locale: initialLocale } = useLoaderData<typeof loader>();
+  const [locale, setLocale] = useState(initialLocale);
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const storedLanguage = sessionStorage.getItem('lng');
+      if (storedLanguage) {
+        setLocale(storedLanguage)
+      }
+    }
+  }, [initialLocale]);
+
+  useChangeLanguage(locale);
   return <Outlet />;
 }
