@@ -1,0 +1,147 @@
+.PageProject{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+article{
+    max-width: 800px;
+    width: 100%;
+    margin-top: 50px;
+    padding: 0 20px;
+    margin-inline: auto;
+}
+
+.projectHeader{
+    margin-bottom: 40px;
+}
+
+.projectHeader .projectHeaderMeta{
+    margin-bottom: 36px;
+}
+
+.projectHeader .projectHeaderMeta h1{
+    color: var(--Grey-Dark);
+    font-size: min(40px, 7vw);
+    font-weight: 600;
+    line-height: 1.1;
+}
+
+.projectHeader .LinksProject{
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.projectHeader .projectHeaderMeta a{
+    color: var(--Grey-Dark);
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.1;
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 90px;
+}
+
+.projectHeader .projectHeaderMeta a svg{
+    fill: var(--Grey-Dark);
+    transition: transform .3s ease;
+}
+
+.projectHeader .projectHeaderMeta a:hover{
+    color: var(--Blue);
+}
+
+.projectHeader .projectHeaderMeta a:hover svg{
+    transform: scale(1.3);
+}
+
+.imgProject{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.projectBody picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectBody picture img{
+    width: 100%;
+    min-height: 450px;
+    border-radius: 20px;
+    object-fit: contain;
+}
+
+
+.projectBody p{
+    color: var(--Grey-Dark);
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.projectBody h2{
+    color: var(--Grey-Dark);
+    font-size: 24px;
+    font-weight: bold;
+    margin: 48px 0 24px;
+}
+
+.projectBody h3{
+    color: var(--Grey-Dark);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.projectBody ul{
+    list-style:disc;
+    padding-left: 50px;
+    padding-bottom: 16px;
+}
+
+.projectBody li{
+    color: var(--Grey-Dark);
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 20px; 
+}
+
+.projectBody a{
+    color: var(--Blue);
+    place-self: center;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 14px;
+}
+.projectBody a:hover{
+    color: var(--Blue-Hover);
+}
+
+.projectBody .ToolBadge{
+    width: fit-content;
+    height: auto;
+}
+
+.projectBody .ToolBadge span{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 6px;
+}
+
+.projectBody .ListBadges{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+    article{
+        margin-top: 100px;
+    }
+}

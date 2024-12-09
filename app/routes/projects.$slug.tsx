@@ -2,12 +2,14 @@ import { useParams } from "@remix-run/react";
 import { useTranslation } from "react-i18next";
 import Layout from "~/Layout/Layout";
 import { MetaFunction } from "@remix-run/node";
+import '~/content/posts/articels.css'
+import '~/Sections/Home/Projects/ToolBadge.css'
 
 export const meta: MetaFunction = () => {
     const { t } = useTranslation();
     const params = useParams();
     const slug = params.slug || '';
-    
+
     const getTranslationKey = (slug: string) => {
         const projectKeys: { [key: string]: string } = {
             'DocMe': 'P_DocMe',
@@ -22,7 +24,7 @@ export const meta: MetaFunction = () => {
     const translationKey = getTranslationKey(slug);
 
     return [
-        { title: translationKey ? t(`${translationKey}.title`) : 'Proyecto no encontrado' }
+        { title: translationKey ? t(`${translationKey}.seo.title`) : 'Proyecto no encontrado' }
     ];
 }
 
@@ -51,12 +53,15 @@ export default function ProjectPage() {
         <Layout>
             {translationKey ? (
                 <article className="project-content">
-                    <h1>{t(`${translationKey}.title`)}</h1>
-                    <p>{t(`${translationKey}.intro`)}</p>
+                    <div
+                        dangerouslySetInnerHTML={{
+                            __html: t(`${translationKey}.header`),
+                        }}
+                    />
 
                     <div
                         dangerouslySetInnerHTML={{
-                            __html: t(`${translationKey}.p1`),
+                            __html: t(`${translationKey}.content`),
                         }}
                     />
                 </article>
