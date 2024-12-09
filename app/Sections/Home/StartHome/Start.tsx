@@ -10,7 +10,7 @@ import { GitHubIcon, LinkedInIcon } from '~/assets/Icons/icons'
 import { useTranslation } from 'react-i18next';
 
 //Docs
-import CVKevin from '~/assets/Docs/Kevin Julio CV.pdf'
+import CVKevin from '~/assets/Docs/KevinJP CV.pdf'
 
 export default function Start(){
     const { t } = useTranslation();

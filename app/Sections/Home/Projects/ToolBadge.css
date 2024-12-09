@@ -21,9 +21,15 @@
 }
 
 
-.ToolBadge.ReactJS{
+.ToolBadge.React{
     background-color:#333 ;
     color: #61dafb;
+}
+
+.ToolBadge.Remix{
+    background-color:#333 ;
+    color: white;
+    text-shadow: 0 0 10px #1174e4;
 }
 
 .ToolBadge.ExpressJS {
@@ -45,6 +51,11 @@
 .ToolBadge.JavaScript{
     background-color: #F7DF1E;
     color: #000000;
+}
+
+.ToolBadge.TypeScript{
+    background-color: white;
+    color: #007acc;
 }
 
 .ToolBadge.Python{
