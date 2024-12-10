@@ -66,11 +66,21 @@ export default function ProjectPage() {
     useEffect(() => {
         const projectHeader = document.querySelector('.projectHeader');
         if (projectHeader && translationKey) {
-            projectHeader.innerHTML = `
-            <picture>
-                <img class="imgProject" itemProp="image" src="${projectImages[translationKey]}" alt="Imagen del proyecto ${slug}" width="800px" height="450px" />
-            </picture>
-        `;
+            // Verificar si la imagen ya existe
+            const existingImage = projectHeader.querySelector('img.imgProject');
+            if (!existingImage) {
+                const pictureElement = document.createElement('picture');
+                const imgElement = document.createElement('img');
+
+                imgElement.className = 'imgProject';
+                imgElement.src = projectImages[translationKey];
+                imgElement.alt = `Imagen del proyecto ${slug}`;
+                imgElement.width = 800;
+                imgElement.height = 450;
+
+                pictureElement.appendChild(imgElement);
+                projectHeader.appendChild(pictureElement);
+            }
         }
     }, [translationKey, projectImages, slug]);
 
