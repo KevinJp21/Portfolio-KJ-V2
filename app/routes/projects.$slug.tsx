@@ -9,6 +9,7 @@ import ApiResidenciasImg from '~/assets/Images/ApiResidencias.webp'
 import ApiOrdersImg from '~/assets/Images/ApiOrdenes.webp'
 import ChatbotImg from '~/assets/Images/docme-chatbot.webp'
 import RestauranteSCocinaImg from '~/assets/Images/chikos-gourmet.webp'
+import ChikosImg from '~/assets/Images/chikos-gourmet.webp'
 import { useEffect } from "react";
 
 export const meta: MetaFunction = () => {
@@ -22,7 +23,8 @@ export const meta: MetaFunction = () => {
             'APIResidences': 'P_APIResi',
             'APIOrders': 'P_APIOrders',
             'Chatbot': 'P_Chatbot',
-            'RestauranteSCocina': 'P_RestS'
+            'RestauranteSCocina': 'P_RestS',
+            'Chikos': 'P_Chikos',
         };
         return projectKeys[slug] || '';
     };
@@ -45,7 +47,8 @@ export default function ProjectPage() {
             'APIResidences': 'P_APIResi',
             'APIOrders': 'P_APIOrders',
             'Chatbot': 'P_Chatbot',
-            'RestauranteSCocina': 'P_RestS'
+            'RestauranteSCocina': 'P_RestS',
+            'Chikos': 'P_Chikos'
         };
 
         return projectKeys[slug] || '';
@@ -59,7 +62,8 @@ export default function ProjectPage() {
         'P_APIResi': ApiResidenciasImg,
         'P_APIOrders': ApiOrdersImg,
         'P_Chatbot': ChatbotImg,
-        'P_RestS': RestauranteSCocinaImg
+        'P_RestS': RestauranteSCocinaImg,
+        'P_Chikos': ChikosImg,
     };
 
     // Usar useEffect para manipular el DOM
