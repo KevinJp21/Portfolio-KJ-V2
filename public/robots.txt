@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Allow: /Projects/Chikos
+Allow: /Projects/APIResidences
+Allow: /Projects/APIOrders
+Allow: /Projects/Chatbot
+Allow: /Projects/DocMe
+
+Sitemap: https://portfolio-kj.vercel.app/sitemap.xml

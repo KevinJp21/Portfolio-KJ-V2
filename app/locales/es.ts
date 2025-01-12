@@ -21,7 +21,7 @@ export default {
       "p2": "API Residencias",
       "p3": "API Ordenes",
       "p4": "Asistente Chatbot",
-      "p5": "Chikos Gourmet"
+      "p5": "Chikos Gourmet - Sitio Web Oficial"
     },
     "About": {
       "title": "Acerca de mí",
