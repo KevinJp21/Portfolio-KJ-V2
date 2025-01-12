@@ -1,33 +1,39 @@
-import React, { useEffect, useState } from 'react'
-import './Layout.css'
-import NavBar from './navbar/NavBar';
-import FloatNavbar from './navbar/FloatNavbar';
-import Footer from './footer/Footer';
+import React, { useEffect, useState } from "react";
+import "./Layout.css";
+import NavBar from "./navbar/NavBar";
+import FloatNavbar from "./navbar/FloatNavbar";
+import Footer from "./footer/Footer";
+import { useMediaQuery } from "react-responsive";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
-    const [isMobile, setIsMobile] = useState(false);
+  const [isMounted, setIsMounted] = useState(false);
+  const isMobile = useMediaQuery({ maxWidth: 768 });
 
-    useEffect(() => {
-        const mediaQuery = window.matchMedia('(max-width: 768px)');
-        const handleMediaChange = (event: MediaQueryListEvent) => {
-            setIsMobile(event.matches);
-        };
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
 
-        mediaQuery.addEventListener('change', handleMediaChange);
-
-        return () => {
-            mediaQuery.removeEventListener('change', handleMediaChange);
-        };
-    }, []);
-
+  if (!isMounted) {
     return (
-        <div className="min-h-screen relative">
-            <div className="bg-absolute fixed top-0 z-[-2] h-screen w-screen"></div>
-            <main className="relative z-10">
-                {isMobile ? <FloatNavbar /> : <NavBar />}
-                {children}
-                <Footer />
-            </main>
-        </div>
-    )
+      <div className="min-h-screen relative">
+        <div className="bg-absolute fixed top-0 z-[-2] h-screen w-screen"></div>
+        <main className="relative z-10">
+          <NavBar />
+          {children}
+          <Footer />
+        </main>
+      </div>
+    );
+  }
+
+  return (
+    <div className="min-h-screen relative">
+      <div className="bg-absolute fixed top-0 z-[-2] h-screen w-screen"></div>
+      <main className="relative z-10">
+        {isMobile ? <FloatNavbar /> : <NavBar />}
+        {children}
+        <Footer />
+      </main>
+    </div>
+  );
 }

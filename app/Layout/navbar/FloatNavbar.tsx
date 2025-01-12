@@ -8,8 +8,11 @@ const FloatNavbar = () => {
     const [languageDropdownOpen, setLanguageDropdownOpen] = useState(false);
     const { t, i18n } = useTranslation();
     const [darkMode, setDarkMode] = useState(() => {
+        if (typeof window !== 'undefined') {
         const savedMode = sessionStorage.getItem('dark-mode');
         return savedMode !== null ? savedMode : 'system';
+        }
+        return 'system'
     });
     const changeThemeMode = (mode: string) => {
         setDarkMode(mode);
@@ -44,8 +47,11 @@ const FloatNavbar = () => {
 
 
     const [lngMode, setLngMode] = useState(() => {
-        const savedLNG = sessionStorage.getItem('lng');
-        return savedLNG !== null ? savedLNG : 'en';
+        if (typeof window !== 'undefined') {
+            const savedLNG = sessionStorage.getItem('lng');
+            return savedLNG !== null ? savedLNG : 'en';
+        }
+        return 'en';
     });
 
     const changeLNGMode = (mode: string) => {
