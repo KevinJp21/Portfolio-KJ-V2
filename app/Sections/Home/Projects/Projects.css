@@ -56,7 +56,6 @@
 }
 
 .contentCard {
-    opacity: 0;
     visibility: visible;
     position: relative;
     display: flex;
@@ -67,7 +66,6 @@
     padding: 10px;
     transition: opacity 0.2s ease, visibility 0.2s ease-in-out;
 }
-
 .contentCard::before {
     position: absolute;
     top: 0;

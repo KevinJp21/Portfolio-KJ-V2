@@ -1,6 +1,7 @@
 //Imagenes
 import DocMe from '~/assets/Images/docme.webp'
 import ChikosGourmet from '~/assets/Images/chikos-gourmet.webp';
+import Verezza from '~/assets/Images/verezza.webp';
 import ApiResidencias from '~/assets/Images/ApiResidencias.webp';
 import ApiOrdenes from '~/assets/Images/ApiOrdenes.webp';
 import DocMeChatbot from '~/assets/Images/docme-chatbot.webp';
@@ -18,7 +19,8 @@ export default function Projects() {
     const { t } = useTranslation();
 
     const projects = [
-        { id: 1, title: t('Projects.p5'), description: '5', img: ChikosGourmet, tool: [{ name: "React", icon: <ReactJsIcon /> }, { name: 'TypeScript', icon: <TypeScriptIcon /> }, { name: 'Remix', icon: <RemixFramework /> }, { name: "MySQL", icon: <MySQLIcon /> }], Git: '', demo: 'https://chikos.co', article: "/Projects/Chikos"},
+        { id: 1, title: t('Projects.p5'), description: '5', img: ChikosGourmet, tool: [{ name: "React", icon: <ReactJsIcon /> }, { name: 'TypeScript', icon: <TypeScriptIcon /> }, { name: 'Remix', icon: <RemixFramework /> }, { name: "MySQL", icon: <MySQLIcon /> }], Git: '', demo: 'https://chikos.com.co', article: "/Projects/Chikos"},
+        { id: 1, title: t('Projects.p6'), description: '6', img: Verezza, tool: [{ name: "React", icon: <ReactJsIcon /> }, { name: 'TypeScript', icon: <TypeScriptIcon /> }, { name: 'Remix', icon: <RemixFramework /> }], Git: 'https://github.com/KevinJp21/Verezza-E-commerce', demo: 'https://verezza.vercel.app/', article: "/Projects/Verezza"},
         { id: 2, title: t('Projects.p2'), description: '2', img: ApiResidencias, tool: [{ name: 'PHP', icon: <PhpIcon /> }], Git: 'https://github.com/KevinJp21/ApiResidencia', demo: '', article: "/Projects/APIResidences" },
         { id: 3, title: t('Projects.p3'), description: '3', img: ApiOrdenes, tool: [{ name: "JavaScript", icon: <JavaScriptIcon /> }, { name: "ExpressJS" }], Git: 'https://github.com/KevinJp21/API_Gestion_Orden', demo: '',  article: "/Projects/APIOrders" },
         { id: 4, title: t('Projects.p4'), description: '4', img: DocMeChatbot, tool: [{ name: 'Python', icon: <PythonIcon /> }, { name: 'Flask', icon: <FlaskIcon /> }, { name: 'TensorFlow', icon: <TensorFlowIcon /> }, { name: 'SQLAlchemy', icon: <SQLAlchemyIcon /> }, { name: "MySQL", icon: <MySQLIcon /> }], Git: 'https://github.com/KevinJp21/ChatBot', demo: '' , article: "/Projects/Chatbot"},
