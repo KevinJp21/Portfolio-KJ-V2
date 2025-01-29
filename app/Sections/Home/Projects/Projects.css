@@ -172,6 +172,11 @@
     grid-row: span 2;
 }
 
+.Card6{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
 
 
 @media screen and (max-width: 924px) {
