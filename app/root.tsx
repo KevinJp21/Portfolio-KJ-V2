@@ -27,8 +27,8 @@ export const links: LinksFunction = () => [
 export const meta: MetaFunction = () => {
   return [
     { title: "Portfolio | Kevin Julio" },
-    { name: "description", content: "Soy Kevin Julio Pineda (KevinJp21), ingeniero de sistemas especializado en desarrollo frontend Descubre mis trabajos y habilidades en mi portfolio." },
-    { name: "keywords", content: "Soy Kevin Julio Pineda (KevinJp21), ingeniero de sistemas especializado en desarrollo frontend Descubre mis trabajos y habilidades en mi portfolio." }
+    { name: "description", content: "Soy Kevin Julio Pineda (KevinJp21), ingeniero de sistemas especializado en desarrollo Full-Stack Descubre mis trabajos y habilidades en mi portfolio." },
+    { name: "keywords", content: "Soy Kevin Julio Pineda (KevinJp21), ingeniero de sistemas especializado en desarrollo Full-Stack Descubre mis trabajos y habilidades en mi portfolio." }
   ];
 };
 
