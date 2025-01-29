@@ -92,6 +92,17 @@
     background:rgba(190, 198, 214, 0.9);
 }
 
+
+.cardsSkills.GraphQL{
+    background: rgba(240, 240, 232, .8);
+}
+
+.cardsSkills.Shopify{
+    background: rgba(38, 38, 38, 1);
+}
+
+/*Inteligencia Artificial*/
+
 .cardsSkills.Vite{
     background: rgba(27, 27, 31, .8);
 }

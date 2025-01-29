@@ -27,6 +27,8 @@ import npm_Logo from '~/assets/Logos/npm.webp'
 import Vite_Logo from '~/assets/Logos/Vite.webp'
 import pnpm_Logo from '~/assets/Logos/pnpm.webp'
 import Git_Logo from '~/assets/Logos/Git.webp'
+import GraphQL_Logo from '~/assets/Logos/GraphQL.webp'
+import Shopify_Logo from '~/assets/Logos/Shopify.webp'
 
 import Tools from './Tools';
 import { useTranslation } from 'react-i18next';
@@ -42,13 +44,15 @@ export default function Skills() {
     { id: 5, name: 'React', Logo: ReactJS_Logo },
     { id: 6, name: 'Remix', Logo: RemixLogo },
     { id: 7, name: 'Angular', Logo: Angular_Logo },
-    { id: 8, name: 'HTML', Logo: HTML_Logo },
-    { id: 9, name: 'CSS', Logo: CSS_Logo },
-    { id: 10, name: 'ExpressJS', Logo: ExpressJS_Logo },
-    { id: 11, name: 'jQuery', Logo: jQuery_Logo },
-    { id: 12, name: 'NodeJS', Logo: NodeJS_Logo },
-    { id: 13, name: 'MySQL', Logo: MySQL_Logo },
-    { id: 14, name: 'Vite', Logo: Vite_Logo },];
+    { id: 8, name: 'GraphQL', Logo: GraphQL_Logo},
+    { id: 9, name: 'Shopify', Logo: Shopify_Logo},
+    { id: 10, name: 'HTML', Logo: HTML_Logo },
+    { id: 11, name: 'CSS', Logo: CSS_Logo },
+    { id: 12, name: 'ExpressJS', Logo: ExpressJS_Logo },
+    { id: 13, name: 'jQuery', Logo: jQuery_Logo },
+    { id: 14, name: 'NodeJS', Logo: NodeJS_Logo },
+    { id: 15, name: 'MySQL', Logo: MySQL_Logo },
+    { id: 16, name: 'Vite', Logo: Vite_Logo }];
 
     const ToolIA = [{ id: 1, name: 'Python', Logo: Python_Logo },
     { id: 2, name: 'TensorFlow', Logo: TensorFlow_Logo },
